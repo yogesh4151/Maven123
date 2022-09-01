@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-27T10:13:07 PDT" name="Default suite" finished-at="2022-07-27T10:13:27 PDT" duration-ms="20387">
+    <groups>
+    </groups>
+    <test started-at="2022-07-27T10:13:07 PDT" name="Default test" finished-at="2022-07-27T10:13:27 PDT" duration-ms="20387">
+      <class name="module1_login_Test.POM_loginpage_TestNG">
+        <test-method is-config="true" signature="opnebrowser()[pri:0, instance:module1_login_Test.POM_loginpage_TestNG@bae7dc0]" started-at="2022-07-27T10:13:07 PDT" name="opnebrowser" finished-at="2022-07-27T10:13:13 PDT" duration-ms="5742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opnebrowser -->
+        <test-method is-config="true" signature="loginToapp()[pri:0, instance:module1_login_Test.POM_loginpage_TestNG@bae7dc0]" started-at="2022-07-27T10:13:13 PDT" name="loginToapp" finished-at="2022-07-27T10:13:21 PDT" duration-ms="8334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToapp -->
+        <test-method signature="verifyuserID()[pri:0, instance:module1_login_Test.POM_loginpage_TestNG@bae7dc0]" started-at="2022-07-27T10:13:21 PDT" name="verifyuserID" finished-at="2022-07-27T10:13:26 PDT" duration-ms="5569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserID -->
+        <test-method is-config="true" signature="logoutToapp(org.testng.ITestResult)[pri:0, instance:module1_login_Test.POM_loginpage_TestNG@bae7dc0]" started-at="2022-07-27T10:13:26 PDT" name="logoutToapp" finished-at="2022-07-27T10:13:26 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyuserID status=SUCCESS method=POM_loginpage_TestNG.verifyuserID()[pri:0, instance:module1_login_Test.POM_loginpage_TestNG@bae7dc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToapp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:module1_login_Test.POM_loginpage_TestNG@bae7dc0]" started-at="2022-07-27T10:13:26 PDT" name="closebrowser" finished-at="2022-07-27T10:13:27 PDT" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- module1_login_Test.POM_loginpage_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
